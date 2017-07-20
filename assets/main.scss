@@ -1,0 +1,189 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+@import "assets27b7";
+@import "style.scss27b7";
+@import "responsive.scss27b7";
+@import "font-awesome.min.scss";
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+body {
+  background: #ededed !important;
+}
+.page_content{
+  margin: 14px 0 0 0;
+}
+
+.page_content{
+  margin: 0px;
+}
+.margin_content{
+  margin: 14px 0 0 0;
+}
+// card
+.card-block{
+  padding-bottom: 30px;
+}
+.card-block a{
+  margin-top: 20px;
+}
+.page_header{
+  padding-left: 15px;
+}
+.homepage_collection{
+  padding-top: 0px;
+}
+
+// image view
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 50%;
+    max-width: 500px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+.caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.rd-parallax-inner{
+  margin-top: 0px;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.header_custom_block{
+  background-image: url("/assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; 
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991px){
+.color_scheme .template-index header {
+  min-height: 0px;
+  padding-bottom: 30px;
+  
+}
+}
+
+.inside{
+  color: #fff;
+}
+.scheme_1 h1{
+  color: #fff;
+
+}
+
+.portfolio img {
+  min-height: 300px;
+  width: 100%;
+}
+.portfolio:hover img {
+  opacity: 0.3;
+}
+.img_service:hover img{
+  opacity: 0.3;
+}
+@media (max-width: 480px){
+ .color_scheme .header_custom_block .inside {
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3); 
+ }
+}

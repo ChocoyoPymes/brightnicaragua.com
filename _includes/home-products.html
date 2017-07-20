@@ -1,0 +1,66 @@
+<main id="main" role="main">
+  <div class="container">
+    <div class="row">
+      <div class="main_content  col-sm-12">
+        <h2 class="section_heading homepage_products_heading">Nuestros trabajos</h2>
+        <div class="homepage_carousel">
+          <div id="homepage_carousel__1" class="swiper-container product_listing_main">
+            <div class="swiper-wrapper myGallery">
+
+              {% for product in site.data.products %}
+              <div class="product product_homepage swiper-slide">
+                <div class="product_wrapper">
+                  <div class="product_img">
+                    <a class="img_change venobox"href="{{ product.image_front }}"  data-gall="myGallery">
+                      <img id="prouct_image" src="{{ product.image_front }}" alt="{{ product.name }}" />
+                      <img class="img__2" src="{{ product.image_back }}" alt="{{ product.name }}" />
+                    </a>
+                  </div>
+                  <div class="product_info">
+                    <div class="product_name">
+                      <h5>{{ product.name }}</h5>
+                    </div>
+                    <div id="caption" class="product_desc product_desc__short">{{ product.description }}</div>
+                    <div class="product_links">
+                      <!--<span class="btn quick_view_btn" title="Quick view"><i class="fa fa-eye" aria-hidden="true"></i></span>-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="swiper_btn btn_prev"></div>
+          <div class="swiper_btn btn_next"></div>
+        </div>
+        <!-- Trigger the Modal -->
+
+        <script>
+          jQuery(document).ready(function ($) {
+            var homepage_carousel__1 = new Swiper('#homepage_carousel__1', {
+              loop: true,
+              speed: 500,
+              slidesPerView: 4,
+              spaceBetween: 30,
+              prevButton: '.btn_prev',
+              nextButton: '.btn_next',
+              breakpoints: {
+                991: {
+                  slidesPerView: 3
+                },
+                767: {
+                  slidesPerView: 2,
+                  spaceBetween: 15
+                },
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 0
+                }
+              }
+            });
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+</main>
