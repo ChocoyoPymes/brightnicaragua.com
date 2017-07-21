@@ -25,7 +25,7 @@ caption: Diseño Grafico, Impresión digital, Organización de eventos, Stands, 
 description: >
  Empresa de servicios publicitarios integrales, Diseño Grafico, Impresión digital, Organización de eventos, Stands, Material POP, Rotulación y Papeleria.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://chocoyolabs-pymes.github.io/brightnicaragua.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://brightnicaragua.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
