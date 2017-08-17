@@ -1,21 +1,21 @@
 
-- name: Metales
+- name: Rotulación Comercial
   href: '/servicios/metales/'
   image: '/assets/images/services/ser_metales1.jpg'
   cover: '/assets/images/services/ser_metales2.jpg'
   details:
    - top: Desarrollo, diseño y fabricación de estructuras metálicas para Exhibición, Punto de Venta, Activaciones de producto y Vallas Publicitarias.
-   
+
 - name: Rotulación Vehicular
   href: '/servicios/rotulacion-vehicular/'
-  image: '/assets/images/services/ser_rotulavehi1.jpg'
+  image: '/assets/images/services/rotulacion-vehicular.png'
   cover: '/assets/images/services/ser_rotulavehi2.jpg'
-  details: 
+  details:
    - top: Contamos con personal altamente capacitado para la instalación de vinilos conformables, tales como Control-Tac, RG-180-10, aplicables en flotas vehiculares (Camiones, Microbuses, Automóviles, Motocicletas, Buses.. etc).
 
 - name: Exhibición
   href: '/servicios/exhibicion/'
-  image: '/assets/images/services/ser_exhibic1.jpg'
+  image: '/assets/images/services/exhibicion.png'
   cover: '/assets/images/services/ser_exhibic2.jpg'
   details:
    - top: Promotional Desk
@@ -25,7 +25,7 @@
 
 - name: Materiales POP
   href: '/servicios/materiales-pop/'
-  image: '/assets/images/services/ser_materiales1.jpg'
+  image: '/assets/images/services/materiales-pop.png'
   cover: '/assets/images/services/ser_materiales2.jpg'
   details:
    - top: Banners y Mantas
@@ -38,8 +38,14 @@
    - top: Acrílicos
    - top: Colgantes
    - top: Plumas
-  
-- name: Diseño y Producción de Stand
+
+- name: Remodelación Comercial
   href: '/servicios/diseno-y-produccion-de-stand/'
-  image: '/assets/images/services/ser_diseñstand1.jpg'
+  image: '/assets/images/services/remodelacion-comercial.png'
+  cover: '/assets/images/services/ser_diseñstand2.jpg'
+
+
+- name: Serigrafia profesional
+  href: '/servicios/serigrafia-profesional/'
+  image: '/assets/images/services/serigrafia.png'
   cover: '/assets/images/services/ser_diseñstand2.jpg'

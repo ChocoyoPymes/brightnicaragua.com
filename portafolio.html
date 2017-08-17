@@ -5,10 +5,11 @@ permalink: "/galeria/"
 ---
 
  {% for product in site.data.portfolio %}
-  <div class="col-sm-4 homepage_collection">
+  <div class="col-sm-3">
     <a class="venobox portfolio" data-gall="myGallery" href="{{ product.image }}">
+      <div class="portfolio-img-content" style="margin-top: 10px; margin-bottom: 10px;">
         <img src="{{ product.image }}" /></a>
+      </div>
   </div>
-  
-{% endfor %}
 
+{% endfor %}

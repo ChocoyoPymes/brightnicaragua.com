@@ -23,7 +23,7 @@
 }
 
 body {
-  background: #ededed !important;
+  background: #fff !important;
 }
 .page_content{
   margin: 14px 0 0 0;
@@ -96,7 +96,7 @@ body {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
+.modal-content, #caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -104,12 +104,12 @@ body {
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
+    from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
+    from {transform:scale(0)}
     to {transform:scale(1)}
 }
 
@@ -148,7 +148,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  background-size: cover; 
+  background-size: cover;
   width: 100%;
   height: auto;
 }
@@ -157,7 +157,7 @@ body {
 .color_scheme .template-index header {
   min-height: 0px;
   padding-bottom: 30px;
-  
+
 }
 }
 
@@ -169,13 +169,6 @@ body {
 
 }
 
-.portfolio img {
-  min-height: 300px;
-  width: 100%;
-}
-.portfolio:hover img {
-  opacity: 0.3;
-}
 .img_service:hover img{
   opacity: 0.3;
 }
@@ -184,6 +177,132 @@ body {
     width: 100%;
     margin: 0 0 30px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.3); 
+    background: rgba(0, 0, 0, 0.3);
  }
+}
+.deconova {
+
+}
+
+.portfolio-img-content {
+  width: 100;
+  margin-bottom: 10 px;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio img {
+  width: 100%;
+  height: auto;
+  -moz-transition: all 0.3s;
+ -webkit-transition: all 0.3s;
+ transition: all 0.3s;
+}
+
+.portfolio-img-content:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.content-deconova {
+  padding: 30px;
+display: inline-block;
+margin-left: 40px;
+margin-right: 40px;
+background-color: #fff !important;
+margin-top: 40px;
+
+}
+
+.deconova-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+@media (max-width: 430px) {
+  .deconova-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
+  }
+}
+
+h2.deconova-font {
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  color: red;
+  display: inline-table;
+  color: #5a2b79;
+}
+
+h2.deconova-font a {
+   color: #6aaa43 !important;
+}
+
+.logo-deconova {
+  width: 200px;
+  height: auto;
+}
+
+.deconova-body {
+  background-image: url("/assets/images/deconova-bg.png") !important;
+}
+
+.scheme_1 .homepage_collection .btn {
+  border-radius: 0 !important;
+  width: 100%;
+  margin-bottom: -19%;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .scheme_1 .homepage_collection .btn {
+    margin-bottom: -41%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 600px) {
+  .scheme_1 .homepage_collection .btn {
+    margin-bottom: -13%;
+  }
+}
+
+@media (max-width: 599px) and (min-width: 301px) {
+  .scheme_1 .homepage_collection .btn {
+    margin-bottom: -17%;
+  }
+}
+
+@media (max-width: 300px) {
+  .scheme_1 .homepage_collection .btn {
+    margin-bottom: -34%;
+  }
+}
+
+.footer-class {
+  background-color: #3c3c3b;
+  margin-top: 30px;
+}
+
+.footer-class h5{
+  color: #f49800 !important;
+}
+
+.m-b-10 {
+  margin-bottom: 30px !important;
+}
+
+.espacio {
+  height: 10px;
+  display: inline-block;
+}
+
+.footer-class ul li a{
+  color: #fff !important;
+}
+
+.footer-class-deconova {
+  background-color: #e3f3c7;
+  margin-top: 30px;
 }

@@ -3,12 +3,12 @@
   href: '/'
   image: 'http://via.placeholder.com/350x150'
 -
-  name: Tecnología
-  href: '/tecnologia/'
-  image: 'http://via.placeholder.com/350x150'
--
   name: Servicios
   href: '/servicios/'
+  image: 'http://via.placeholder.com/350x150'
+-
+  name: Tecnología
+  href: '/tecnologia/'
   image: 'http://via.placeholder.com/350x150'
 -
   name: Galería
@@ -17,4 +17,8 @@
 -
   name: Contáctenos
   href: '/contactenos/'
+  image: 'http://via.placeholder.com/350x150'
+-
+  name: Deconova
+  href: '/deconova/'
   image: 'http://via.placeholder.com/350x150'

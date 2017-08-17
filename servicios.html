@@ -5,7 +5,7 @@ permalink: "/servicios/"
 ---
 
  {% for service in site.data.services %}
-  <div class="col-sm-6 homepage_collection">
+  <div class="col-sm-4 homepage_collection">
     <a href="{{ service.href }}">
             <span class="btn">{{service.name}}</span>
             <div class="collection_image">
@@ -14,4 +14,5 @@ permalink: "/servicios/"
           </a>
   </div>
 {% endfor %}
-
+<div class="espacio">
+  </div>

@@ -1,0 +1,23 @@
+---
+title: Deconova
+layout: deconova
+permalink: "/deconova/"
+---
+<div class="content-deconova">
+  <div class="text-center">
+<a href="http://deconova.com.ni" target="_blank"><img class="logo-deconova" src="/assets/images/deconova-logo.png" alt=""></a>
+  <h2 class="deconova-font">Somos un equipo joven, creativo, profesional e innovador, el cual está 100% comprometido a brindarte un servicio completo y personalizado, en donde la comunicación es fluida.
+  <a href="http://deconova.com.ni" target="_blank"><br>Conoce más de nosotros</a> </h2>
+
+</div>
+{% for product in site.data.deconova %}
+ <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+   <a class="venobox portfolio" data-gall="myGallery" href="{{ product.image }}">
+     <div class="deconova-img portfolio-img-content" style="margin-top: 10px; margin-bottom: 10px;">
+       <img class="deconova-img" src="{{ product.image }}" /></a>
+     </div>
+ </div>
+
+{% endfor %}
+
+</div>
